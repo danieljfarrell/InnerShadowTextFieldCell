@@ -18,6 +18,9 @@
 		656DFDEE188BD8BD00E8A76A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 656DFDCD188BD8BD00E8A76A /* Cocoa.framework */; };
 		656DFDF6188BD8BD00E8A76A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 656DFDF4188BD8BD00E8A76A /* InfoPlist.strings */; };
 		656DFDF8188BD8BD00E8A76A /* InnerShadowThingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 656DFDF7188BD8BD00E8A76A /* InnerShadowThingsTests.m */; };
+		656DFE06188BD9D900E8A76A /* InnerShadowTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 656DFE05188BD9D900E8A76A /* InnerShadowTextFieldCell.m */; };
+		656DFE0F188BDC7600E8A76A /* BezierConversions.m in Sources */ = {isa = PBXBuildFile; fileRef = 656DFE0E188BDC7600E8A76A /* BezierConversions.m */; };
+		656DFE11188BEB6B00E8A76A /* Borat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656DFE10188BEB6B00E8A76A /* Borat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		656DFDF3188BD8BD00E8A76A /* InnerShadowThingsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InnerShadowThingsTests-Info.plist"; sourceTree = "<group>"; };
 		656DFDF5188BD8BD00E8A76A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		656DFDF7188BD8BD00E8A76A /* InnerShadowThingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InnerShadowThingsTests.m; sourceTree = "<group>"; };
+		656DFE04188BD9D900E8A76A /* InnerShadowTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerShadowTextFieldCell.h; sourceTree = "<group>"; };
+		656DFE05188BD9D900E8A76A /* InnerShadowTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerShadowTextFieldCell.m; sourceTree = "<group>"; };
+		656DFE0D188BDC7600E8A76A /* BezierConversions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BezierConversions.h; path = ../../../../Downloads/SpeedometerView/BezierConversions.h; sourceTree = "<group>"; };
+		656DFE0E188BDC7600E8A76A /* BezierConversions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BezierConversions.m; path = ../../../../Downloads/SpeedometerView/BezierConversions.m; sourceTree = "<group>"; };
+		656DFE10188BEB6B00E8A76A /* Borat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Borat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,11 @@
 				656DFDDF188BD8BD00E8A76A /* AppDelegate.h */,
 				656DFDE0188BD8BD00E8A76A /* AppDelegate.m */,
 				656DFDE2188BD8BD00E8A76A /* MainMenu.xib */,
+				656DFE04188BD9D900E8A76A /* InnerShadowTextFieldCell.h */,
+				656DFE05188BD9D900E8A76A /* InnerShadowTextFieldCell.m */,
+				656DFE0D188BDC7600E8A76A /* BezierConversions.h */,
+				656DFE0E188BDC7600E8A76A /* BezierConversions.m */,
+				656DFE10188BEB6B00E8A76A /* Borat.jpg */,
 				656DFDE5188BD8BD00E8A76A /* Images.xcassets */,
 				656DFDD4188BD8BD00E8A76A /* Supporting Files */,
 			);
@@ -233,6 +246,7 @@
 				656DFDD8188BD8BD00E8A76A /* InfoPlist.strings in Resources */,
 				656DFDE6188BD8BD00E8A76A /* Images.xcassets in Resources */,
 				656DFDDE188BD8BD00E8A76A /* Credits.rtf in Resources */,
+				656DFE11188BEB6B00E8A76A /* Borat.jpg in Resources */,
 				656DFDE4188BD8BD00E8A76A /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +266,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				656DFE06188BD9D900E8A76A /* InnerShadowTextFieldCell.m in Sources */,
+				656DFE0F188BDC7600E8A76A /* BezierConversions.m in Sources */,
 				656DFDE1188BD8BD00E8A76A /* AppDelegate.m in Sources */,
 				656DFDDA188BD8BD00E8A76A /* main.m in Sources */,
 			);

@@ -13,6 +13,9 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    NSView *view = _window.contentView;
+    view.wantsLayer = YES; // Yes, I know this is the wrong way, but it doesn't matter for this example.
+    view.layer.backgroundColor = [[NSColor whiteColor] CGColor];
 }
 
 @end
