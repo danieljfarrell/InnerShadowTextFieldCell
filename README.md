@@ -3,4 +3,4 @@ InnerShadowTextFieldCell
 
 A subclass of NSTextFieldCell that draws an inner shadow.
 
-![alt tag](https://raw.github.com/username/projectname/branch/path/to/img.png)
+![alt tag](http://i.imgur.com/3VKnRQo.png)
